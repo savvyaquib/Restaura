@@ -68,7 +68,7 @@ export const DISHES = [
   {
     image: dish9,
     title: "Wellington",
-    description: "Tender beef filet wrapped in pastry with mushrooms and herbs",
+    description: "Tender wrapped in pastry with mushrooms and herbs",
   },
   {
     image: dish10,
@@ -127,15 +127,15 @@ export const CONTACT = [
 export const SOCIAL_MEDIA_LINKS = [
   {
     href: "https://x.com/",
-    icon: <FaFacebook fontSize={30} className="hover:opacity-80"/>,
+    icon: <FaFacebook fontSize={30} className="hover:opacity-80"/ >,
   },
 
   {
     href: "https://x.com/",
-    icon: <FaInstagram fontSize={30} className="hover:opacity-80"/>,
+    icon: <FaInstagram fontSize={30} className="hover:opacity-80"/ >,
   },
   {
     href: "https://x.com/",
-    icon: <FaXTwitter fontSize={30} className="hover:opacity-80"/>,
+    icon: <FaXTwitter fontSize={30} className="hover:opacity-80"/ >,
   },
 ];
