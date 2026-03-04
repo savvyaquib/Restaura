@@ -67,7 +67,7 @@ export const DISHES = [
   },
   {
     image: dish9,
-    title: "Beef Wellington",
+    title: "Wellington",
     description: "Tender beef filet wrapped in pastry with mushrooms and herbs",
   },
   {
@@ -97,17 +97,17 @@ export const CUSINES = [
   },
   {
     number: "02.",
-    image: japanese,
-    title: "Japanese",
-    description:
-      "Delight in the art of Japanese culinary excellence, offering a fusion of classic and modern flavors.",
-  },
-  {
-    number: "03.",
     image: indian,
     title: "Indian",
     description:
       "Indulge in the rich and diverse tastes of India, with a menu that celebrates the country's culinary heritage.",
+  },
+  {
+    number: "03.",
+    image: japanese,
+    title: "Japanese",
+    description:
+      "Delight in the art of Japanese culinary excellence, offering a fusion of classic and modern flavors.",
   },
 ];
 
@@ -127,15 +127,15 @@ export const CONTACT = [
 export const SOCIAL_MEDIA_LINKS = [
   {
     href: "https://x.com/",
-    icon: <FaFacebook fontSize={30} className="hover:opacity-80" />,
+    icon: <FaFacebook fontSize={30} className="hover:opacity-80"/>,
   },
 
   {
     href: "https://x.com/",
-    icon: <FaInstagram fontSize={30} className="hover:opacity-80" />,
+    icon: <FaInstagram fontSize={30} className="hover:opacity-80"/>,
   },
   {
     href: "https://x.com/",
-    icon: <FaXTwitter fontSize={30} className="hover:opacity-80" />,
+    icon: <FaXTwitter fontSize={30} className="hover:opacity-80"/>,
   },
 ];
